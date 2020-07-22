@@ -1,0 +1,27 @@
+html,body {
+    background-color: #303030;
+    height: 100%;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+.button {
+  border: 3px solid #ff9100;
+  border-radius: 10px;
+  padding: 15px 30px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover{
+    border: 3px solid #ff9100;
+    background-color: #ff9100;
+}
