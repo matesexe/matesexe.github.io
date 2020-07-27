@@ -1,5 +1,8 @@
+
+/* vsechno ostatni */
+
 html,body {
-    background-color: #303030;
+    background-color: #353a36;
     height: 100%;
     color: white;
     font-family: 'Ubuntu Mono', monospace;
@@ -10,7 +13,7 @@ html,body {
   ul.topnav li {float: none;}
 }
 .button {
-  border: 3px solid #ff9100;
+  border: 3px solid #ff7b00; /*ff9100*/
   border-radius: 10px;
   padding: 15px 30px;
   background-color: transparent;
@@ -21,7 +24,31 @@ html,body {
   font-size: 16px;
 }
 
+/* Scrollbar */
+
 .button:hover{
-    border: 3px solid #ff9100;
-    background-color: #ff9100;
+    background-color: #ff7b00;
+    color: black;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #353a36; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #ff7b00; 
+  height:100px;
+  border-radius:5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgb(217, 255, 0); 
 }
